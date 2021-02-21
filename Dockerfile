@@ -1,7 +1,7 @@
 FROM docker.pkg.github.com/bullabs/docker-alpine-base/docker-alpine-base:3.13
 LABEL maintainer "Bullabs <containers@bullabs.dev>"
 
-ARG DOTNET_VERSION=3.1
+ARG DOTNET_VERSION=5.0
 
 RUN apk add --no-cache \
     icu-libs \
