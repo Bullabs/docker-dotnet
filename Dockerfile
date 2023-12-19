@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/bullabs/docker-alpine-base/docker-alpine-base:3.17
+FROM docker.pkg.github.com/bullabs/docker-alpine-base/docker-alpine-base:3.19
 LABEL maintainer "Bullabs <containers@bullabs.dev>"
 
 ARG DOTNET_VERSION=7.0
